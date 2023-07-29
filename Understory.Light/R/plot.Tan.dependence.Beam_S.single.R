@@ -89,7 +89,7 @@ Tan.dependence.Beam_S.single = function(a, b, tan, mi,MI) {
   outcome
 }
 
-Ne = Tan.dependence.Beam_S.single(a, b, tan=1, mi=mi,MI=MI)
+Ne = Tan.dependence.Beam_S.single(a, b, tan=tan, mi=mi,MI=MI)
 big = subset(Ne$Nei.tree, Size > a[, 3])
 small = subset(Ne$Nei.tree, Size <= a[, 3])
 n = nrow(big)
