@@ -1,6 +1,7 @@
 plot.Scale.dependence.Diffuse_S.single=function (a, b, scale, MI,wei,scale2) 
 {
 library(ggplot2)
+library(ggforce)
 if(missing(scale2))
 {scale2=NA}
 Scale.dependence.Diffuse_S.single=function (a, b, scale, MI,wei,scale2) 
