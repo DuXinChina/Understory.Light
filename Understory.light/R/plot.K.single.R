@@ -57,6 +57,7 @@ plot.K.single=function (a, b)
   }
   options(warn = 1)
   Ne = K.single(a, b)
+  n=nrow(Ne$Neighbourhood)
   if (nrow(b1) != 0 & nrow(b2) != 0 & nrow(b3) != 0 & nrow(b4) !=
       0) {
     center = cbind(cbind(rep(a[, 1], each = n), rep(a[, 2],
