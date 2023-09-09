@@ -101,7 +101,7 @@ plot.Tan.dependence.Beam_S.Krig=function(minx,maxx,miny,maxy,b,seq,maxtan,mintan
       
       if(nrow(Nei.tree)>0){
         y=density_box(Nei.tree$angle,bandwidth)
-        plot(y,type="l")
+        # plot(y,type="l")
         y=subset(y,y[,2]>0)
         Dispersion=nrow(y)/1000
         tangent=sum(Nei.tree$tangen)
