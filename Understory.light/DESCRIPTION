@@ -8,6 +8,6 @@ Description: Simulate solar radiation under the forest
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
-Imports: ggplot2,sf,tcltk,sp,gstat,ggforce
-Depends: ggplot2,sf,tcltk,sp,gstat,ggforce
+Imports: sf,tcltk,sp,gstat,ggforce
+Depends: sf,tcltk,sp,gstat,ggforce
 RoxygenNote: 7.2.3
